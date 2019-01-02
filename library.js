@@ -1,3 +1,5 @@
+// tags: asynchronous functions, arrow functions, promises, .then(), .catch(), setTimeout(),
+
 const store = {
   sunglasses: {
     inventory: 817, 
