@@ -29,7 +29,7 @@ const checkInventory = (order) => {
      console.log(`All of the items are in stock. The total cost of the order is ${total}.`);
      resolve([order, total]);
    } else {
-     reject(`The order could not be completed because some items are sold out.`);
+     reject(`The order could not be completed because some items are sold out.`); 
    }     
 }, generateRandomDelay());
  });
