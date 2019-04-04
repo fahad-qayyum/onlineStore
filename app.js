@@ -5,7 +5,7 @@ const order = {
   giftcardBalance: 79.82
 };
 
-// checking th e inventory
+// checking the inventory
 checkInventory(order)
 .then((resolvedValueArray) => {
   // Write the correct return statement here:
