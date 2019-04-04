@@ -8,10 +8,12 @@ const order = {
 // checking the inventory
 checkInventory(order)
 .then((resolvedValueArray) => {
+	
   // Write the correct return statement here:
  return processPayment(resolvedValueArray);
 })
 .then((resolvedValueArray) => {
+	
   // Write the correct return statement here:
   return shipOrder(resolvedValueArray);
 })
